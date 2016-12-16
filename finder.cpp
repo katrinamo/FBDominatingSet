@@ -70,6 +70,8 @@ int main(){
 		}
 	}
 	int round = 0;
+	
+	//Why??????
 	while(round < 9){
 		for(int node = 0; node < MAX_ROW; node ++){
 			if(connections[node] >= biggestConnection && connections[node] != 0 && connections[node] != -1){
